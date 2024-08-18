@@ -1,4 +1,6 @@
 import torch
+import torch.utils
+import torch.utils.data
 import torchvision
 from torch.utils.data import DataLoader
 from torchvision import transforms
