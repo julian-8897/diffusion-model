@@ -56,7 +56,7 @@ def main():
     model.to(device)
     print(model)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
-    epochs = 1
+    epochs = 5
     T = 300
 
     train_loop(dataloader, model, optimizer, dataloader.batch_size, epochs, T, device)
